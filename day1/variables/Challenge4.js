@@ -1,5 +1,10 @@
-let Distance = 500
-let Carburant = 35
+
+const ps = require("prompt-sync")
+
+const prompt = ps()
+
+let Distance = prompt("enter la Distance : ")
+let Carburant = prompt("enter la Carburant : ")
 
 let Consommation = (Carburant/Distance)*100
 
